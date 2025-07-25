@@ -1,37 +1,125 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CarlosCyberTechno | Cybersecurity Journey</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Carlos Cyber Techno</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f0f0f;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo {
+      width: 150px;
+      height: 150px;
+      background: url('your-logo.png') no-repeat center center / contain;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+      color: #0ff;
+    }
+
+    .section {
+      margin: 20px 0;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .skills div {
+      background: #1a1a1a;
+      padding: 10px 15px;
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      box-shadow: 0 0 10px #0ff4;
+    }
+
+    .skills img {
+      width: 24px;
+      height: 24px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+    }
+
+    .buttons a {
+      padding: 12px 20px;
+      border-radius: 8px;
+      text-decoration: none;
+      background: #0ff;
+      color: #000;
+      font-weight: bold;
+      transition: 0.3s ease;
+    }
+
+    .buttons a:hover {
+      background: #0cc;
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+
+      .skills div {
+        font-size: 14px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <nav>
-        <span class="logo">CARLOSCYBERTECHNO</span>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#certs">Certificates</a></li>
-          <li><a href="#achievements">Achievements</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section class="hero">
-        <h1>CARLOSCYBERTECHNO</h1>
-        <p class="tagline">My Journey to Be a Cybersecurity Analyst</p>
-      </section>
-      <section id="about"><h2>About</h2><p>This is your journey.</p></section>
-      <section id="certs"><h2>Certificates</h2><p>List your certs here.</p></section>
-      <section id="achievements"><h2>Achievements</h2><p>Show your wins.</p></section>
-      <section id="experience"><h2>Experience</h2><p>Write your projects or internships.</p></section>
-      <section id="contact"><h2>Contact</h2><p>Email: your@email.com</p></section>
-    </main>
+  <div class="logo"></div>
+  <h1>Carlos Cyber Techno</h1>
+
+  <div class="section">
+    <h2>Skills - Programming Languages</h2>
+    <div class="skills">
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" />HTML</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" />CSS</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JS" />JavaScript</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" />PHP</div>
+      <div><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />Python</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Skills - Web Hacking</h2>
+    <div class="skills">
+      <div><img src="https://img.icons8.com/ios/50/sql.png" alt="SQLi" />SQL Injection</div>
+      <div><img src="https://img.icons8.com/ios/50/script.png" alt="XSS" />Cross-Site Scripting (XSS)</div>
+      <div><img src="https://img.icons8.com/ios/50/hacker.png" alt="CSRF" />CSRF</div>
+    </div>
+  </div>
+
+  <div class="buttons">
+    <a href="https://www.fiverr.com/s/2Kx1qve" target="_blank"><i class="fa-solid fa-globe"></i> Order Website</a>
+    <a href="https://t.me/CarlosCyberTechno" target="_blank"><i class="fa-brands fa-telegram"></i> Telegram</a>
+    <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i> YouTube</a>
   </div>
 </body>
 </html>
